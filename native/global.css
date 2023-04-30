@@ -1,0 +1,14 @@
+/* global.css */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer utilities {
+  .bg-radial-gradient {
+    background-image: radial-gradient(#1F2937 2px, transparent 1px);
+  }
+  .bg-size-50 {
+    background-size: 50px 50px;
+  }
+}
