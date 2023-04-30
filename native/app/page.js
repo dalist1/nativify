@@ -54,8 +54,9 @@ export default function HomePage() {
   
   return (
     <div className="flex flex-col justify-center items-center">
-     <span className="text-3xl font-medium pb-10">Native Alphabet</span>
+     <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 pb-10">Albanian Alphabet</span>
     <Buttons alphabet={alphabet} words={words}/>
+    <span className="fixed font-medium text-base bottom-4">Powered 🚀 by Dalist (Frensi Qatipi) - With ❤️ for WWSB</span>
     </div>
 
   )
