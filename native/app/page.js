@@ -53,10 +53,22 @@ export default function HomePage() {
       
   
   return (
-    <div className="flex flex-col justify-center items-center">
-     <span className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 pb-10">Albanian Alphabet</span>
+    <div className="flex flex-col justify-center items-center overflow-auto">
+     <span className="font-extrabold text-transparent text-4xl lg:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 pb-10">Albanian Alphabet</span>
     <Buttons alphabet={alphabet} words={words}/>
-    <span className="fixed font-medium text-base bottom-4">Powered 🚀 by Dalist (Frensi Qatipi) - With ❤️ for WWSB</span>
+    <div className="fixed font-medium text-base bottom-4 p-3 bg-gray-300/20 backdrop-blur-sm rounded-full">
+      Powered 🚀 by{" "}
+      <a
+        href="https://dalist1.github.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 hover:text-blue-700"
+      >
+        Dalist
+      </a>{" "}
+      - With ❤️ for WWSB
+    </div>
+
     </div>
 
   )

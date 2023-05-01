@@ -11,4 +11,19 @@
   .bg-size-50 {
     background-size: 50px 50px;
   }
+      /* Scrollbar */
+  /* Chrome, nodejs, and Safari */
+  *::-webkit-scrollbar {
+    width: 1px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(14 165 233 / 0.5);
+    border-radius: 14px;
+  }
 }
