@@ -4,59 +4,50 @@ export default function HomePage() {
   const alphabet = [
     'A', 'B', 'C', 'Ç', 'D', 'DH', 'E', 'Ë', 'F', 'G', 'GJ', 'H', 'I', 'J', 'K', 'L', 'LL', 'M', 'N', 'NJ', 'O', 'P', 'Q', 'R', 'RR', 'S', 'SH', 'T', 'TH', 'U', 'V', 'X', 'XH', 'Y', 'Z', 'ZH']
 
-    const words = [
-        { letter: 'A', items: ['automjet', 'avion', 'agim', 'anije'] },
-        { letter: 'B', items: ['baltë', 'bukur', 'behar', 'breshkë'] },
-        { letter: 'C', items: ['çikë', 'çelës', 'çati', 'çarçaf'] },
-        { letter: 'Ç', items: ['çelës', 'çati', 'çarçaf', 'çadër'] },
-        { letter: 'D', items: ['djalë', 'dhomë', 'dridh', 'dasma'] },
-        { letter: 'DH', items: ['dhuratë', 'dhembi', 'dhëmb', 'dhemshëm'] },
-        { letter: 'E', items: ['eagle', 'euro', 'e bardhë', 'e bukur'] },
-        { letter: 'Ë', items: ['ëmbël', 'ëndërr', 'ëmbëlsirë', 'ëndërruar'] },
-        { letter: 'F', items: ['fjalë', 'flamur', 'fshesë', 'fëmijë'] },
-        { letter: 'G', items: ['gjysmë', 'gjelbër', 'gjë', 'gjuhë'] },
-        { letter: 'GJ', items: ['gjumë', 'gjëndje', 'gjëra', 'gjëmë'] },
-        { letter: 'H', items: ['hënë', 'humb', 'hark', 'humbje'] },
-        { letter: 'I', items: ['ishull', 'ikonë', 'ide', 'i zi'] },
-        { letter: 'J', items: ['jastëk', 'jehonë', 'jetë', 'jetim'] },
-        { letter: 'K', items: ['kafshë', 'kamera', 'kopsht', 'kryq'] },
-        { letter: 'L', items: ['lule', 'libër', 'lumë', 'le të jetë'] },
-        { letter: 'LL', items: ['llomotit', 'llaf', 'llak', 'llapë'] },
-        { letter: 'M', items: ['mëngjes', 'mrekulli', 'mik', 'mollë'] },
-        { letter: 'N', items: ['natë', 'ngjyrë', 'ndërtesë', 'një'] },
-        { letter: 'NJ', items: ['njëzet', 'njëkohësisht', 'njësoj', 'njëmijë'] },
-        { letter: 'O', items: ['orë', 'ose', 'opak', 'osht'] },
-        { letter: 'P', items: ['pëllëmbë', 'peshk', 'pasdite', 'për'] },
-        { letter: 'Q', items: ['qeveri', 'qytet', 'qenie', 'qark'] },
-        { letter: 'R', items: ['rrugë', 'rroba', 'rreth', 'rrotull'] },
-        { letter: 'RR', items: ['rrufe', 'rrush', 'rrumbullakë', 'rrëshqitje'] },
-        { letter: 'S', items: ['shëndoshë', 'shkollë', 'shtëpi', 'shtatë'] },
-        { letter: 'SH', items: ['shpirt', 'shenjë', 'shenjtëror', 'shkëlqim'] },
-        { letter: 'T', items: ['treg', 'tavolinë', 'trup', 'të'] },
-        { letter: 'TH', items: ['thyer', 'tharës', 'tharë', 'thërrmuar'] },
-        { letter: 'U', items: ['ulët', 'unazë', 'unë', 'ujë'] },
-        { letter: 'V', items: ['vjeshtë', 'vajzë', 'vend', 'vrap'] },
-        {
-          letter: "XH",
-          items: ["Xhami", "Xhaketa", "Xhepi"]
-        },
-        {
-          letter: "Y",
-          items: ["Yndyrë", "Ymer", "Ylber"]
-        },
-        {
-          letter: "Z",
-          items: ["Zjarr", "Zog", "Zbritje"]
-        },
-        { letter: 'X', items: ['xhep', 'xhastik', 'xhinxhir', 'xheloz'] },
-        { letter: 'ZH', items: ['zhurmë', 'zhvillim', 'zhavorr', 'zhdukje'] } ]
+    const words = [  { letter: 'A', items: ['Automjet', 'Avion', 'Agim'] },
+    { letter: 'B', items: ['Baltë', 'Bukur', 'Behar'] },
+    { letter: 'C', items: ['Çikë', 'Çelës', 'Çati'] },
+    { letter: 'Ç', items: ['Çelës', 'Çati', 'Çarçaf'] },
+    { letter: 'D', items: ['Djalë', 'Dhomë', 'Dridh'] },
+    { letter: 'DH', items: ['Dhuratë', 'Dhembi', 'Dhëmb'] },
+    { letter: 'E', items: ['Emër', 'Euro', 'E bardhë'] },
+    { letter: 'Ë', items: ['Ëmbël', 'Ëndërr', 'Ëmbëlsirë'] },
+    { letter: 'F', items: ['Fjalë', 'Flamur', 'Fshesë'] },
+    { letter: 'G', items: ['Gjysmë', 'Gjelbër', 'Gjë'] },
+    { letter: 'GJ', items: ['Gjumë', 'Gjëndje', 'Gjëra'] },
+    { letter: 'H', items: ['Hënë', 'Humb', 'Hark'] },
+    { letter: 'I', items: ['Ishull', 'Ikonë', 'Ide'] },
+    { letter: 'J', items: ['Jastëk', 'Jehonë', 'Jetë'] },
+    { letter: 'K', items: ['Kafshë', 'Kamera', 'Kopsht'] },
+    { letter: 'L', items: ['Lule', 'Libër', 'Lumë'] },
+    { letter: 'LL', items: ['Llomotit', 'Llaf', 'Llak'] },
+    { letter: 'M', items: ['Mëngjes', 'Mrekulli', 'Mik'] },
+    { letter: 'N', items: ['Natë', 'Ngjyrë', 'Ndërtesë'] },
+    { letter: 'NJ', items: ['Njëzet', 'Njëkohësisht', 'Njësoj'] },
+    { letter: 'O', items: ['Orë', 'Ose', 'Opak'] },
+    { letter: 'P', items: ['Pëllëmbë', 'Peshk', 'Pasdite'] },
+    { letter: 'Q', items: ['Qeveri', 'Qytet', 'Qenie'] },
+    { letter: 'R', items: ['Rrugë', 'Rroba', 'Rreth'] },
+    { letter: 'RR', items: ['Rrufe', 'Rrush', 'Rrumbullakë'] },
+    { letter: 'S', items: ['Shëndoshë', 'Shkollë', 'Shtëpi'] },
+    { letter: 'SH', items: ['Shpirt', 'Shenjë', 'Shenjtëror'] },
+    { letter: 'T', items: ['Treg', 'Tavolinë', 'Trup'] },
+    { letter: 'TH', items: ['Thyer', 'Tharës', 'Thirrje'] },
+    { letter: 'U', items: ['Ushqim', 'Ujë', 'Udhetim'] },
+    { letter: 'V', items: ['Vajzë', 'Vera', 'Vesh'] },
+    { letter: 'X', items: ['Xixa', 'Xhaketë', 'Xheloz'] },
+    { letter: 'XH', items: ['Xhami', 'Xhep', 'Xhan'] },
+    { letter: 'Y', items: ['Yndyrë', 'Ylber', 'Yzberisht'] },
+    { letter: 'Z', items: ['Zjarr', 'Zgjat', 'Zonjë'] },
+    { letter: 'ZH', items: ['Zhurmë', 'Zhvillim', 'Zhdukje'] }
+    ];
       
   
   return (
     <div className="flex flex-col justify-center items-center overflow-auto">
      <span className="font-extrabold text-transparent text-4xl lg:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 pb-10">Albanian Alphabet</span>
-    <Buttons alphabet={alphabet} words={words}/>
-    <div className="fixed font-medium text-base bottom-4 p-3 bg-gray-300/20 backdrop-blur-sm rounded-full">
+    <Buttons alphabet={alphabet} words={words} />
+    <div className="fixed font-medium text-sm bottom-4 p-3 bg-[#0c2d6b]/40 backdrop-blur-sm rounded-full">
       Powered 🚀 by{" "}
       <a
         href="https://dalist1.github.io/"

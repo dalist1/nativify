@@ -13,15 +13,15 @@ export default function Buttons({ alphabet, words }) {
   const [displayWords, setDisplayWords] = useState([]);
 
   const pickWord = (letter) => {
-    const wordsList = words.filter((item) => item.letter === letter);
-    setDisplayWords(wordsList[0].items);
+    const wordList = words.filter((item) => item.letter === letter);
+    setDisplayWords(wordList[0].items);
   };
   return (
     <div className="flex flex-col w-full">
       <div className="flex justify-center space-y-4 space-x-3 flex-wrap ">
         {alphabet.map((letter, index) => (
           <button
-            className="p-5 rounded-2xl bg-gray-100/10 hover:bg-blue-950/90 backdrop-blur-sm"
+            className="p-5 rounded-2xl bg-gray-100/10 hover:bg-blue-950/80 backdrop-blur-sm"
             key={index}
             onClick={() => pickWord(letter)}
           >
