@@ -18,7 +18,7 @@ export default function Buttons({ alphabet, words }) {
   };
   return (
     <div className="flex flex-col w-full">
-      <div className="flex justify-center space-y-4 space-x-3 flex-wrap ">
+      <div className="flex justify-center space-y-2 lg:space-y-4 space-x-3 flex-wrap ">
         {alphabet.map((letter, index) => (
           <button
             className="p-5 rounded-2xl bg-gray-100/10 hover:bg-blue-950/80 backdrop-blur-sm"
