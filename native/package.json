@@ -14,6 +14,6 @@
     "postcss": "8.4.23",
     "react": "next",
     "react-dom": "next",
-    "tailwindcss": "3.3.2"
+    "tailwindcss": "latest"
   }
 }
