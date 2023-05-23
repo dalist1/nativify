@@ -51,7 +51,7 @@ export default function HomePage() {
   <Buttons alphabet={alphabet} words={words} />
   <div className="fixed font-medium text-sm bottom-4 p-3 bg-[#0c2d6b]/40 backdrop-blur-sm rounded-full">
     Powered 🚀 by{" "}
-    <a href="https://dalist1.github.io/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
+    <a href="https://github.com/dalist1" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
       Dalist
     </a>{" "}
     - With ❤️ for WWSB
