@@ -24,7 +24,3 @@ Nativify is licensed under the [MIT License](https://opensource.org/licenses/MIT
 ## Contributing
 
 Feel free to open issues or submit pull requests for improvements and bug fixes. We appreciate your contributions to make Nativify a better learning tool for the Albanian language.
-
-## Honorable mentions 
-
-WWSB University
