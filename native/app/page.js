@@ -53,8 +53,7 @@ export default function HomePage() {
     Powered 🚀 by{" "}
     <a href="https://github.com/dalist1" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">
       Dalist
-    </a>{" "}
-    - With ❤️ for WWSB
+    </a>
   </div>
 </div>
 
