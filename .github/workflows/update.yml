@@ -21,5 +21,3 @@ jobs:
         cache: 'pnpm'
     - name: Update dependencies
       run: pnpm update
-      working-directory: /native
-
