@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "10.4.14",
+    "autoprefixer": "latest",
     "next": "canary",
-    "postcss": "8.4.23",
+    "postcss": "latest",
     "react": "next",
     "react-dom": "next",
     "tailwindcss": "latest"
