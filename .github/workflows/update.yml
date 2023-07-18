@@ -1,4 +1,4 @@
-name: pnpm Example Workflow
+name: Update Deps via PNPM
 on:
   schedule:
     - cron: '30 5 * * *'
