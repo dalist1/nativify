@@ -3,10 +3,32 @@ import '../global.css'
 
 const jost = Jost({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Nativify",
-  description: "Albanian Alphabet App 🚀",
+const APP_NAME = "Nativify";
+const APP_DESCRIPTION = "Learning the alphabet, made easy.";
 
+
+export const metadata = {
+  applicationName: APP_NAME,
+
+  title: {
+    default: APP_NAME,
+    template: "%s",
+  },
+  description: APP_DESCRIPTION,
+  manifest: "/manifest.json",
+  themeColor: "#000000",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: APP_NAME,
+  },
+  formatDetection: {
+    telephone: false,
+  },
+  icons: {
+    shortcut: "/favicon.ico",
+    apple: [{ url: "/icons/apple-touch-icon.png", sizes: "180x180" }],
+  },
 };
 
 export default function RootLayout({ children }) {
