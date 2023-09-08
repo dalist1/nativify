@@ -1,6 +1,6 @@
 {
-    "name": "Tickly",
-    "short_name": "Tickly",
+    "name": "Nativify",
+    "short_name": "Nativify",
     "display": "standalone",
     "orientation": "portrait",
     "theme_color": "#000000",
